@@ -1,0 +1,3 @@
+[submodule "projects/calculator-project"]
+	path = projects/calculator-project
+	url = https://github.com/Gamesbydo/calculator-project
