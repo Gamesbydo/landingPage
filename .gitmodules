@@ -1,3 +1,6 @@
 [submodule "projects/calculator-project"]
 	path = projects/calculator-project
 	url = https://github.com/Gamesbydo/calculator-project
+[submodule "projects/matrix-calculator"]
+	path = projects/matrix-calculator
+	url = https://github.com/Gamesbydo/matrix-calculator
