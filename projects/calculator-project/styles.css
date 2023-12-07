@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.main-frame-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-frame {
+    display: grid;
+    background-color: beige;
+    height: 700px;
+    width: 400px;
+    grid-template-areas:
+        "display display display display"
+        "clear clear delete divide"
+        "seven eight nine multi"
+        "four five six minus"
+        "one two three plus"
+        "zero0 zero0 zero0 equals";
+}
+
+.display {
+    display: flex;
+    grid-area: display;
+    background-color: #000;
+    color: white;
+    font-size: 40px;
+    align-items: center;
+    justify-content: right;
+    padding-right: 10px;
+    font-family: monospace;
+}
+
+.button-class {
+    background-color: #d8d9db;
+    border: 1px solid black;
+    font-size: 40px;
+    cursor: pointer;
+}
+.button-class:hover {
+    background-color: #ebebeb;
+}
+.button-class:active {
+    background-color: #bbbcbe;
+}
+.orange-button {
+    background-color: #df974c;
+    color: white;
+}
+.orange-button:hover {
+    background-color: #dfb07e;
+}
+.orange-button:active {
+    background-color: #dd8d37;
+}
+.clear-button {
+    grid-area: clear;
+}
+
+.delete-button {
+    grid-area: delete;
+    padding: none;
+}
+
+.divide-button {
+    grid-area: divide;
+}
+
+.seven-button {
+    grid-area: seven;
+}
+
+.eight-button {
+    grid-area: eight;
+}
+
+.nine-button {
+    grid-area: nine;
+}
+
+.multi-button {
+    grid-area: multi;
+}
+
+.four-button {
+    grid-area: four;
+}
+
+.five-button {
+    grid-area: five;
+}
+
+.six-button {
+    grid-area: six;
+}
+
+.minus-button {
+    grid-area: minus;
+}
+
+.one-button {
+    grid-area: one;
+}
+
+.two-button {
+    grid-area: two;
+}
+
+.three-button {
+    grid-area: three;
+}
+.plus-button {
+    grid-area: plus;
+}
+
+.zero0-button {
+    grid-area: zero0;
+}
+.equals-button {
+    grid-area: equals;
+}
